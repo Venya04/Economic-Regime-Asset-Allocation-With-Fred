@@ -3,7 +3,7 @@ from fredapi import Fred
 import os
 
 # === FRED API ===
-fred = Fred(api_key="9fc71a0e5a8fb6318c0f031f5b8e5f25")
+fred = Fred(api_key="your api key")
 
 # === Fetch Data ===
 gdp = fred.get_series("GDPC1")
